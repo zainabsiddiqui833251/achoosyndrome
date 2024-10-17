@@ -9,7 +9,9 @@ nav {
 header {
     background-image: url(/image/banner.png);
 }
-
+h1{
+    text-transform: capitalize;
+}
 .child:hover {
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
