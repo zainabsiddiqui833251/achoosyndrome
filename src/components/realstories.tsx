@@ -49,7 +49,7 @@ const CustomSlider = () => {
         <div className="relative w-[70%] p-5 mx-auto">
             <h1 className='text-[24px] md:text-[28px] lg:text-[32px] font-serif font-bold text-[#495219] m-4'>case studies</h1>
 
-            <div className="real-stories bg-white rounded-lg shadow-lg p-6 w-[95%] m-4 h-[200px]"> {/* Set a fixed width and height for the slides */}
+            <div className="real-stories bg-white rounded-lg shadow-lg p-6 w-[100%] m-4 h-auto"> {/* Set a fixed width and height for the slides */}
                 <h2 className="text-xl font-bold mb-2 text-[1.3vw]">{stories[currentIndex].title}</h2> {/* Adjusted text size */}
                 <p className="text-gray-700 text-[15px]">{stories[currentIndex].content}</p> {/* Adjusted text size */}
             </div>
