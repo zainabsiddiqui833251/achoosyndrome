@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 const Header = () => {
   return (
-    <header className='w-[70%] m-auto h-[30vw] bg-no-repeat bg-contain bg-center bg-hero-pattern]'>
-
+    <header className='w-full h-[50vh] md:h-[40vh] lg:h-[85vh] bg-center'>
     </header>
-  )
+  );
 }
 
-export default Header
+export default Header;
+
