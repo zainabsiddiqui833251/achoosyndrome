@@ -21,7 +21,7 @@ const Factsstats = () => {
                 {facts.map((fact, index) => (
                     <div
                         key={index}
-                        className='child transition-transform duration-300 ease-in-out transform hover:scale-105 border-solid border-2 border-black w-full md:w-[350px] rounded-xl p-4 h-[auto] m-2'
+                        className='child transition-transform duration-300 shadow-md ease-in-out transform bg-gray-50 hover:scale-105 border-solid border-2 border-black w-full md:w-[350px] rounded-xl p-4 h-[auto] m-2'
                     >
                         <h3 className='font-bold text-[28px] text-[#C08261] text-center'>
                             {fact.title}

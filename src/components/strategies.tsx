@@ -2,7 +2,7 @@ import React from 'react';
 
 const Strategies = () => {
     return (
-        <section className='w-[95%] md:w-[70%] lg:w-[60%] m-auto capitalize p-5 pt-0'>
+        <section className='w-[95%] md:w-[70%] lg:w-[70%] m-auto capitalize p-5 pt-0'>
             <h1 className='text-[24px] md:text-[28px] lg:text-[32px] font-serif font-bold text-[#495219] m-4'>
                 Strategies to Reduce Photic Sneezing Triggers:
             </h1>

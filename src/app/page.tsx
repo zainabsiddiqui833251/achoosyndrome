@@ -5,7 +5,9 @@ import Chart from "../components/chart";
 import Triggers from "@/components/triggers";
 import Symptoms from "@/components/symptoms";
 import Strategies from "@/components/strategies";
-import Realstories from "@/components/realstories";
+import References from "@/components/references";
+
+
 export default function Home() {
   return (
     <div>
@@ -16,7 +18,7 @@ export default function Home() {
       <Triggers />
       <Symptoms />
       <Strategies />
-      <Realstories />
+      <References />
     </div>
   );
 }

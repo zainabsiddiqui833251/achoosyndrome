@@ -16,7 +16,7 @@ const Triggers = () => {
                     { icon: 'bi-cloud-fog', text: 'Dust or Allergens' },
                     { icon: 'bi-hand-thumbs-up', text: 'Tactile Stimuli' },
                 ].map((trigger, index) => (
-                    <div key={index} className="card w-[100%] justify-between  sm:w-[45%] md:w-[30%] lg:w-[350px] h-[100px] border-solid border-2 border-black p-3 m-2 rounded-lg flex items-center">
+                    <div key={index} className="card transition-all duration-200 bg-gray-50 shadow-md ease-in-out hover:scale-105 hover:shadow-lg w-[100%] justify-between sm:w-[45%] md:w-[30%] lg:w-[350px] h-[100px] border-solid border-2 border-black p-3 m-2 rounded-lg flex items-center">
                         <i className={`bi ${trigger.icon} text-4xl mr-4`}></i>
                         <p className='text-[18px]'>{trigger.text}</p>
                     </div>
